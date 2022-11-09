@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../fontawesome-free-6.2.0-web/css/all.css">
+     <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .box1{
+            background-color:aqua;
+            position:absolute;
+        }
+        .box2{
+            background-color: brown;
+            position:absolute;
+        }
+        .box1:hover{
+            width:100px;
+            height:20px;
+            transition: width 2s; 
+         }
+         .box2:hover{
+            width:50px;
+            height:20px;
+            transition: width 2s; 
+         }
+         div:hover .text{
+            display:inline-block;
+            white-space: normal;
+         }
+         .text{
+            color:blueviolet;
+            display:none;
+            position:absolute;
+        
+           
+         }
+         div:hover{
+            float: right;
+         }
+      
+     </style> 
+</head>
+<body>
+<div class="box1">
+    <div class="fas fa-globe"></div>
+   <p><span class="text">访客visitor</span></p> 
+</div>
+<br><br>
+<div class="box2">
+    <div class="fas fa-ambulance"></div>
+    <br>
+</div>
+
+    
+</body>
+</html>
